@@ -1,0 +1,14 @@
+{
+  "go.lintTool": "golangci-lint",
+  "go.lintFlags": [
+    "--fast"
+  ],
+  "go.testEnvFile": "${workspaceFolder}/test.env",
+  "cSpell.words": [
+    "Fatalf",
+    "woozymasta"
+  ],
+  "cSpell.ignorePaths": [
+    "go.mod", "go.sum", ".github/actions/**/*.yaml", ".github/workflows/**/*.yaml", ".vscode/*", ".golangci.yml"
+  ],
+}
