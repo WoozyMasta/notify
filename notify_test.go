@@ -6,7 +6,7 @@ import (
 	"time"
 )
 
-// TestSendEditDelete tests the Send, Edit, and Delete functions for both Discord and Telegram.
+// TestSendEditDeleteDiscord tests the Send, Edit, and Delete functions for Discord.
 func TestSendEditDeleteDiscord(t *testing.T) {
 	discordID, ok := os.LookupEnv("DISCORD_ID")
 	if !ok {
@@ -43,7 +43,7 @@ func TestSendEditDeleteDiscord(t *testing.T) {
 	}
 }
 
-// TestSendEditDelete tests the Send, Edit, and Delete functions for both Discord and Telegram.
+// TestSendEditDeleteTelegram tests the Send, Edit, and Delete functions for Telegram.
 func TestSendEditDeleteTelegram(t *testing.T) {
 	telegramID, ok := os.LookupEnv("TELEGRAM_ID")
 	if !ok {
